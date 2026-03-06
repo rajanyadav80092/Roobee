@@ -1,17 +1,32 @@
+*{
+
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+}
+
 body{
 
 font-family:Arial;
-margin:0;
 background:#f4f4f4;
+line-height:1.6;
 
+}
+
+.container{
+
+width:90%;
+max-width:1100px;
+margin:auto;
 }
 
 header{
 
 background:#003366;
 color:white;
-text-align:center;
 padding:20px;
+text-align:center;
 
 }
 
@@ -25,42 +40,86 @@ text-align:center;
 
 nav a{
 
-margin:15px;
+margin:10px;
 text-decoration:none;
 color:black;
 font-weight:bold;
 
 }
 
-section{
+.hero{
 
+padding:50px 0;
 background:white;
-margin:20px;
-padding:40px;
-border-radius:10px;
-text-align:center;
+
+}
+
+.hero-grid{
+
+display: grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+align-items:center;
 
 }
 
 .hero img{
 
 width:100%;
-max-height:400px;
-object-fit:cover;
+border-radius:10px;
+align-items: center;
 
 }
 
-section img{
+#lic{
+    padding: 50px 0px;
+    align-items: center;
+}
+
+#lic{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:30px;
+
+
+}
+
+
+
+.cards{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+padding:40px 0;
+
+}
+
+.card{
+
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+
+}
+
+section a{
+    text-decoration: none;
+    font-size: 2rem;
+    color:black;
+}
+
+section a:hover{
+    color:brown;
+
+
+}
+.card img{
 
 width:100%;
-max-width:500px;
 border-radius:10px;
-
-}
-
-h2{
-
-color:#003366;
 
 }
 
@@ -70,9 +129,9 @@ display:inline-block;
 background:#28a745;
 color:white;
 padding:12px 20px;
+margin-top:15px;
 text-decoration:none;
 border-radius:5px;
-margin-top:15px;
 
 }
 
@@ -88,12 +147,37 @@ padding:20px;
 .whatsapp{
 
 position:fixed;
-bottom:20px;
+bottom:.4rem;
 right:20px;
 background:#25D366;
 color:white;
-padding:15px 20px;
+padding:15px;
 border-radius:50px;
 text-decoration:none;
+
+}
+
+
+/* mobile responsive */
+
+@media(max-width:768px){
+
+.hero-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.cards{
+
+grid-template-columns:1fr;
+
+}
 
 }
