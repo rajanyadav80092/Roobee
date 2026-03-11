@@ -29,7 +29,11 @@ padding:20px;
 text-align:center;
 
 }
-
+header p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    font-size: 18px;
+}
 nav{
 
 background:#ffcc00;
@@ -71,30 +75,30 @@ align-items: center;
 
 }
 
+#about {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    font-size: 18px;
+}
+
 #about img{
     width: 100%;
 
 }
 
-
-/* #lic{
-    padding: 50px 0px;
-    align-items: center;
+#lic{
+    font-size: large;
 }
 
-#lic{
-
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:30px;
-
-
-} */
 
 #lic img{
     width: 100%;
 }
-
+#health{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: inherit;
+    font-size: 18px;
+}
 #health img{
     width: 100%;
 }
@@ -153,6 +157,14 @@ color:white;
 text-align:center;
 padding:20px;
 
+}
+.instagram{
+    margin-top:20px ;
+    width: 100%;
+    padding:10px;
+    border-radius: 50px;
+    background-color: #ffcc00;
+    color:black;
 }
 
 .whatsapp{
