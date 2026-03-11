@@ -71,7 +71,13 @@ align-items: center;
 
 }
 
-#lic{
+#about img{
+    width: 100%;
+
+}
+
+
+/* #lic{
     padding: 50px 0px;
     align-items: center;
 }
@@ -83,10 +89,15 @@ grid-template-columns:1fr 1fr;
 gap:30px;
 
 
+} */
+
+#lic img{
+    width: 100%;
 }
 
-
-
+#health img{
+    width: 100%;
+}
 .cards{
 
 display:grid;
